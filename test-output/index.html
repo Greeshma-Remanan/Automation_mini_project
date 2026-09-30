@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\USER\eclipse-workspace\Mini_project_automation\mytestng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods,   21 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test1_Login">Test1_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test1_Login">Test1_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test1_Login">Test1_Login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test2_Product">Test2_Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test2_Product">Test2_Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test2_Product">Test2_Product</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test3_Size">Test3_Size</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test3_Size">Test3_Size</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test3_Size">Test3_Size</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test4_Checkout">Test4_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test4_Checkout">Test4_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test4_Checkout">Test4_Checkout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test5_Screenshot">Test5_Screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test5_Screenshot">Test5_Screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test5_Screenshot">Test5_Screenshot</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test6_Delete">Test6_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test6_Delete">Test6_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test6_Delete">Test6_Delete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test7_SoftAssertion">Test7_SoftAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test7_SoftAssertion">Test7_SoftAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="mini_project.Mini_project" class="method navigator-link" hash-for-method="Test7_SoftAssertion">Test7_SoftAssertion</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">mini_project.Mini_project</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1_Login">
+                  </a> <!-- Test1_Login -->
+                  <span class="method-name">Test1_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1_Login">
+                  </a> <!-- Test1_Login -->
+                  <span class="method-name">Test1_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test1_Login">
+                  </a> <!-- Test1_Login -->
+                  <span class="method-name">Test1_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2_Product">
+                  </a> <!-- Test2_Product -->
+                  <span class="method-name">Test2_Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2_Product">
+                  </a> <!-- Test2_Product -->
+                  <span class="method-name">Test2_Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test2_Product">
+                  </a> <!-- Test2_Product -->
+                  <span class="method-name">Test2_Product</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test3_Size">
+                  </a> <!-- Test3_Size -->
+                  <span class="method-name">Test3_Size</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test3_Size">
+                  </a> <!-- Test3_Size -->
+                  <span class="method-name">Test3_Size</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test3_Size">
+                  </a> <!-- Test3_Size -->
+                  <span class="method-name">Test3_Size</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test4_Checkout">
+                  </a> <!-- Test4_Checkout -->
+                  <span class="method-name">Test4_Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test4_Checkout">
+                  </a> <!-- Test4_Checkout -->
+                  <span class="method-name">Test4_Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test4_Checkout">
+                  </a> <!-- Test4_Checkout -->
+                  <span class="method-name">Test4_Checkout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test5_Screenshot">
+                  </a> <!-- Test5_Screenshot -->
+                  <span class="method-name">Test5_Screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test5_Screenshot">
+                  </a> <!-- Test5_Screenshot -->
+                  <span class="method-name">Test5_Screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test5_Screenshot">
+                  </a> <!-- Test5_Screenshot -->
+                  <span class="method-name">Test5_Screenshot</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6_Delete">
+                  </a> <!-- Test6_Delete -->
+                  <span class="method-name">Test6_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6_Delete">
+                  </a> <!-- Test6_Delete -->
+                  <span class="method-name">Test6_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test6_Delete">
+                  </a> <!-- Test6_Delete -->
+                  <span class="method-name">Test6_Delete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test7_SoftAssertion">
+                  </a> <!-- Test7_SoftAssertion -->
+                  <span class="method-name">Test7_SoftAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test7_SoftAssertion">
+                  </a> <!-- Test7_SoftAssertion -->
+                  <span class="method-name">Test7_SoftAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Test7_SoftAssertion">
+                  </a> <!-- Test7_SoftAssertion -->
+                  <span class="method-name">Test7_SoftAssertion</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\USER\eclipse-workspace\Mini_project_automation\mytestng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;chrome&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mini_project.Mini_project&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chrome --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;edge&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mini_project.Mini_project&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- edge --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;mini_project.Mini_project&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefox --&gt;
+  &lt;test thread-count=&quot;7&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chrome (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">edge (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">firefox (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test (0 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Test2_Product')
+data.setCell(0, 2, 'mini_project.Mini_project')
+data.setCell(0, 3, 19617);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Test1_Login')
+data.setCell(1, 2, 'mini_project.Mini_project')
+data.setCell(1, 3, 8214);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Test4_Checkout')
+data.setCell(2, 2, 'mini_project.Mini_project')
+data.setCell(2, 3, 7267);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Test4_Checkout')
+data.setCell(3, 2, 'mini_project.Mini_project')
+data.setCell(3, 3, 6904);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Test3_Size')
+data.setCell(4, 2, 'mini_project.Mini_project')
+data.setCell(4, 3, 6887);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Test2_Product')
+data.setCell(5, 2, 'mini_project.Mini_project')
+data.setCell(5, 3, 5649);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Test1_Login')
+data.setCell(6, 2, 'mini_project.Mini_project')
+data.setCell(6, 3, 5560);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Test3_Size')
+data.setCell(7, 2, 'mini_project.Mini_project')
+data.setCell(7, 3, 5099);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Test6_Delete')
+data.setCell(8, 2, 'mini_project.Mini_project')
+data.setCell(8, 3, 4890);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Test4_Checkout')
+data.setCell(9, 2, 'mini_project.Mini_project')
+data.setCell(9, 3, 4341);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Test6_Delete')
+data.setCell(10, 2, 'mini_project.Mini_project')
+data.setCell(10, 3, 4328);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Test5_Screenshot')
+data.setCell(11, 2, 'mini_project.Mini_project')
+data.setCell(11, 3, 4108);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Test2_Product')
+data.setCell(12, 2, 'mini_project.Mini_project')
+data.setCell(12, 3, 4050);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Test3_Size')
+data.setCell(13, 2, 'mini_project.Mini_project')
+data.setCell(13, 3, 3421);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Test7_SoftAssertion')
+data.setCell(14, 2, 'mini_project.Mini_project')
+data.setCell(14, 3, 2332);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Test1_Login')
+data.setCell(15, 2, 'mini_project.Mini_project')
+data.setCell(15, 3, 2224);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Test6_Delete')
+data.setCell(16, 2, 'mini_project.Mini_project')
+data.setCell(16, 3, 2219);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Test5_Screenshot')
+data.setCell(17, 2, 'mini_project.Mini_project')
+data.setCell(17, 3, 1619);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Test5_Screenshot')
+data.setCell(18, 2, 'mini_project.Mini_project')
+data.setCell(18, 3, 1113);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Test7_SoftAssertion')
+data.setCell(19, 2, 'mini_project.Mini_project')
+data.setCell(19, 3, 631);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Test7_SoftAssertion')
+data.setCell(20, 2, 'mini_project.Mini_project')
+data.setCell(20, 3, 121);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">mini_project.Mini_project</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_setup(edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_setup(firefox)</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">browser_setup(chrome)</span>
+                <span class="method-start">2 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">10912 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1_Login</span>
+                <span class="method-start">11133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">16798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test2_Product</span>
+                <span class="method-start">16813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">21231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1_Login</span>
+                <span class="method-start">27744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">35965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test2_Product</span>
+                <span class="method-start">35982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">36484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test3_Size</span>
+                <span class="method-start">36599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">41678 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">41730 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test3_Size</span>
+                <span class="method-start">41755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Test4_Checkout</span>
+                <span class="method-start">42013 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">48655 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test4_Checkout</span>
+                <span class="method-start">48701 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">49336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test5_Screenshot</span>
+                <span class="method-start">49396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">53512 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test6_Delete</span>
+                <span class="method-start">53520 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">55716 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test5_Screenshot</span>
+                <span class="method-start">55816 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">57452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test6_Delete</span>
+                <span class="method-start">57484 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">57869 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test7_SoftAssertion</span>
+                <span class="method-start">58053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">60412 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">62682 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test7_SoftAssertion</span>
+                <span class="method-start">62861 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">63498 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">75798 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test1_Login</span>
+                <span class="method-start">75834 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">78070 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test2_Product</span>
+                <span class="method-start">78084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">82164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test3_Size</span>
+                <span class="method-start">82195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">85616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test4_Checkout</span>
+                <span class="method-start">85632 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">89982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test5_Screenshot</span>
+                <span class="method-start">89994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">91113 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test6_Delete</span>
+                <span class="method-start">91115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">Bofore_method</span>
+                <span class="method-start">93352 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Test7_SoftAssertion</span>
+                <span class="method-start">93372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">end</span>
+                <span class="method-start">93496 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

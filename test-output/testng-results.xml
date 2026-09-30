@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-30T16:00:59 IST" name="Suite" finished-at="2026-09-30T16:02:37 IST" duration-ms="98417">
+    <groups>
+    </groups>
+    <test started-at="2026-09-30T16:00:59 IST" name="Test" finished-at="2026-09-30T16:00:59 IST" duration-ms="33">
+    </test> <!-- Test -->
+    <test started-at="2026-09-30T16:00:59 IST" name="chrome" finished-at="2026-09-30T16:02:12 IST" duration-ms="72819">
+      <class name="mini_project.Mini_project">
+        <test-method is-config="true" signature="browser_setup(java.lang.String)[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:00:59 IST" name="browser_setup" finished-at="2026-09-30T16:01:20 IST" duration-ms="21218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:20 IST" name="Bofore_method" finished-at="2026-09-30T16:01:27 IST" duration-ms="6513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test1_Login()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:27 IST" name="Test1_Login" finished-at="2026-09-30T16:01:35 IST" duration-ms="8214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_Login -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:35 IST" name="Bofore_method" finished-at="2026-09-30T16:01:35 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test2_Product()[pri:1, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:35 IST" name="Test2_Product" finished-at="2026-09-30T16:01:40 IST" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_Product -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:40 IST" name="Bofore_method" finished-at="2026-09-30T16:01:41 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test3_Size()[pri:2, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:41 IST" name="Test3_Size" finished-at="2026-09-30T16:01:47 IST" duration-ms="6887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_Size -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:47 IST" name="Bofore_method" finished-at="2026-09-30T16:01:47 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test4_Checkout()[pri:3, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:47 IST" name="Test4_Checkout" finished-at="2026-09-30T16:01:54 IST" duration-ms="6904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_Checkout -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:54 IST" name="Bofore_method" finished-at="2026-09-30T16:01:55 IST" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test5_Screenshot()[pri:4, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:55 IST" name="Test5_Screenshot" finished-at="2026-09-30T16:01:56 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_Screenshot -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:56 IST" name="Bofore_method" finished-at="2026-09-30T16:01:56 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test6_Delete()[pri:5, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:01:56 IST" name="Test6_Delete" finished-at="2026-09-30T16:02:01 IST" duration-ms="4890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_Delete -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:02:01 IST" name="Bofore_method" finished-at="2026-09-30T16:02:02 IST" duration-ms="179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test7_SoftAssertion()[pri:6, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:02:02 IST" name="Test7_SoftAssertion" finished-at="2026-09-30T16:02:02 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_SoftAssertion -->
+        <test-method is-config="true" signature="end()[pri:0, instance:mini_project.Mini_project@3eb25e1a]" started-at="2026-09-30T16:02:02 IST" name="end" finished-at="2026-09-30T16:02:12 IST" duration-ms="9299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- mini_project.Mini_project -->
+    </test> <!-- chrome -->
+    <test started-at="2026-09-30T16:00:59 IST" name="edge" finished-at="2026-09-30T16:02:12 IST" duration-ms="73096">
+      <class name="mini_project.Mini_project">
+        <test-method is-config="true" signature="browser_setup(java.lang.String)[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:00:59 IST" name="browser_setup" finished-at="2026-09-30T16:01:09 IST" duration-ms="10699" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:10 IST" name="Bofore_method" finished-at="2026-09-30T16:01:10 IST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test1_Login()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:10 IST" name="Test1_Login" finished-at="2026-09-30T16:01:15 IST" duration-ms="5560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_Login -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:16 IST" name="Bofore_method" finished-at="2026-09-30T16:01:16 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test2_Product()[pri:1, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:16 IST" name="Test2_Product" finished-at="2026-09-30T16:01:35 IST" duration-ms="19617" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_Product -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:35 IST" name="Bofore_method" finished-at="2026-09-30T16:01:35 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test3_Size()[pri:2, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:35 IST" name="Test3_Size" finished-at="2026-09-30T16:01:40 IST" duration-ms="5099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_Size -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:40 IST" name="Bofore_method" finished-at="2026-09-30T16:01:41 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test4_Checkout()[pri:3, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:41 IST" name="Test4_Checkout" finished-at="2026-09-30T16:01:48 IST" duration-ms="7267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_Checkout -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:48 IST" name="Bofore_method" finished-at="2026-09-30T16:01:48 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test5_Screenshot()[pri:4, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:48 IST" name="Test5_Screenshot" finished-at="2026-09-30T16:01:52 IST" duration-ms="4108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_Screenshot -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:52 IST" name="Bofore_method" finished-at="2026-09-30T16:01:52 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test6_Delete()[pri:5, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:52 IST" name="Test6_Delete" finished-at="2026-09-30T16:01:57 IST" duration-ms="4328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_Delete -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:57 IST" name="Bofore_method" finished-at="2026-09-30T16:01:57 IST" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test7_SoftAssertion()[pri:6, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:57 IST" name="Test7_SoftAssertion" finished-at="2026-09-30T16:01:59 IST" duration-ms="2332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_SoftAssertion -->
+        <test-method is-config="true" signature="end()[pri:0, instance:mini_project.Mini_project@ae13544]" started-at="2026-09-30T16:01:59 IST" name="end" finished-at="2026-09-30T16:02:12 IST" duration-ms="12658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- mini_project.Mini_project -->
+    </test> <!-- edge -->
+    <test started-at="2026-09-30T16:00:59 IST" name="firefox" finished-at="2026-09-30T16:02:37 IST" duration-ms="98415">
+      <class name="mini_project.Mini_project">
+        <test-method is-config="true" signature="browser_setup(java.lang.String)[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:00:59 IST" name="browser_setup" finished-at="2026-09-30T16:02:15 IST" duration-ms="75791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_setup -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:15 IST" name="Bofore_method" finished-at="2026-09-30T16:02:15 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test1_Login()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:15 IST" name="Test1_Login" finished-at="2026-09-30T16:02:17 IST" duration-ms="2224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_Login -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:17 IST" name="Bofore_method" finished-at="2026-09-30T16:02:17 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test2_Product()[pri:1, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:17 IST" name="Test2_Product" finished-at="2026-09-30T16:02:21 IST" duration-ms="4050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_Product -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:21 IST" name="Bofore_method" finished-at="2026-09-30T16:02:21 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test3_Size()[pri:2, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:21 IST" name="Test3_Size" finished-at="2026-09-30T16:02:24 IST" duration-ms="3421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_Size -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:24 IST" name="Bofore_method" finished-at="2026-09-30T16:02:24 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test4_Checkout()[pri:3, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:24 IST" name="Test4_Checkout" finished-at="2026-09-30T16:02:29 IST" duration-ms="4341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_Checkout -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:29 IST" name="Bofore_method" finished-at="2026-09-30T16:02:29 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test5_Screenshot()[pri:4, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:29 IST" name="Test5_Screenshot" finished-at="2026-09-30T16:02:30 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_Screenshot -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:30 IST" name="Bofore_method" finished-at="2026-09-30T16:02:30 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test6_Delete()[pri:5, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:30 IST" name="Test6_Delete" finished-at="2026-09-30T16:02:32 IST" duration-ms="2219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_Delete -->
+        <test-method is-config="true" signature="Bofore_method()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:32 IST" name="Bofore_method" finished-at="2026-09-30T16:02:32 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Bofore_method -->
+        <test-method signature="Test7_SoftAssertion()[pri:6, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:32 IST" name="Test7_SoftAssertion" finished-at="2026-09-30T16:02:32 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_SoftAssertion -->
+        <test-method is-config="true" signature="end()[pri:0, instance:mini_project.Mini_project@7dc0f706]" started-at="2026-09-30T16:02:32 IST" name="end" finished-at="2026-09-30T16:02:37 IST" duration-ms="4895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- mini_project.Mini_project -->
+    </test> <!-- firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
